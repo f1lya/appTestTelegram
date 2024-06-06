@@ -20,19 +20,22 @@ export default {
 }
 </script>
 
-<style scoped lang="sass">
-.button
-  height: 150px
-  width: 150px
-  border-radius: 50%
-  background-color: #f4cd2a
-  border: 5px solid #eda323
-  font-size: 80px
-  color: #eda323
-  &:active
-    margin: 2px
-    height: 146px
-    width: 146px
-    font-size: 76px
-    transition: 2ms
+<style scoped lang="css">
+.button {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #f4cd2a;
+  border: 5px solid #eda323;
+  font-size: 80px;
+  color: #eda323;
+}
+
+.button:active {
+  margin: 2px;
+  height: 146px;
+  width: 146px;
+  font-size: 76px;
+  transition: 2ms;
+}
 </style>
